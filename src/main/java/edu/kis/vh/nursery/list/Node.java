@@ -30,3 +30,4 @@ public class Node {
 		this.next = next;
 	}
 }
+//niepotrzebne settery nie zostały utworzone podczas hermetyzacji atrybutów nieprywatnych (setValue() w Node oraz setTemp() w pliku FIFORhymer)
