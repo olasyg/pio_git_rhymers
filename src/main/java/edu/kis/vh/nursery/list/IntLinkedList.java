@@ -23,15 +23,17 @@ public class IntLinkedList {
 		return false;
 	}
 
+	public static final int DEFAULT_RETURN_VALUE = -1;
+
 	public int top() {
 		if (isEmpty())
-			return -1;
+			return DEFAULT_RETURN_VALUE;
 		return last.value;
 	}
 
 	public int pop() {
 		if (isEmpty())
-			return -1;
+			return DEFAULT_RETURN_VALUE;
 		int ret = last.value;
 		last = last.prev;
 		return ret;
