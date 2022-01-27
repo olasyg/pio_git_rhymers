@@ -2,8 +2,8 @@ package edu.kis.vh.nursery.list;
 
 public class IntLinkedList {
 
-	Node last;
-	int i;
+	private Node last;
+	private int i;
 
 	public void push(int i) {
 		if (last == null)
@@ -23,7 +23,7 @@ public class IntLinkedList {
 		return false;
 	}
 
-	public static final int DEFAULT_RETURN_VALUE = -1;
+	private static final int DEFAULT_RETURN_VALUE = -1;
 
 	public int top() {
 		if (isEmpty())
