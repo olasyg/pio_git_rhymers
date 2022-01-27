@@ -7,6 +7,11 @@ public class DefaultCountingOutRhymer {
 	private final int[] numbers = new int[MAX_SIZE];
 
 	private static final int EMPTY_TOTAL_RHYMER = -1;
+
+	public int getTotal() {
+		return total;
+	}
+
 	private int total = EMPTY_TOTAL_RHYMER;
 	private static final int DEFAULT_RETURN = -1;
 
